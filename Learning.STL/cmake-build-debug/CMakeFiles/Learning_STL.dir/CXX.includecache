@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.cpp
-w_string.h
-/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/Algorithm/algorithm.h
+iostream
+-
+algorithm
+-
+list
+-
+iterator
+-
+vector
+-
+set
+-
+string
+-
+functional
+-
+
+/home/wingc/SourceCode/Learning.STL/Learning.STL/Algorithm/functional.h
+algorithm.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/Algorithm/algorithm.h
+functional
+-
+vector
+-
 
 /home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.h
 string
@@ -21,4 +43,12 @@ iterator
 -
 iostream
 -
+
+/home/wingc/SourceCode/Learning.STL/Learning.STL/main.cpp
+Algorithm/algorithm.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/Algorithm/algorithm.h
+Algorithm/functional.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/Algorithm/functional.h
+String/w_string.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.h
 

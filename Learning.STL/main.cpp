@@ -1,6 +1,8 @@
 ﻿#include "Algorithm/algorithm.h"
 #include "Algorithm/functional.h"
 
+#include "String/w_string.h"
+
 using namespace std;
 
 class Persons{
@@ -25,5 +27,12 @@ int main(int argc, char *argv[])
 
     vector<int> t(v.begin(), v.begin()+3);
     PRINT_ELEMENTS(t);
+
+    std::string test_string("this,,,is,a,test");
+    auto a = WingC::w_split(test_string, ',', false);
+    for (const auto& i : a) {
+        std::cout << i << std::endl;
+    }
+
     return 0;
 }

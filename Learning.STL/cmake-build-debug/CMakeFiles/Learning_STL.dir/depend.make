@@ -13,5 +13,6 @@ CMakeFiles/Learning_STL.dir/String/w_string.cpp.o: ../String/w_string.h
 
 CMakeFiles/Learning_STL.dir/main.cpp.o: ../Algorithm/algorithm.h
 CMakeFiles/Learning_STL.dir/main.cpp.o: ../Algorithm/functional.h
+CMakeFiles/Learning_STL.dir/main.cpp.o: ../String/w_string.h
 CMakeFiles/Learning_STL.dir/main.cpp.o: ../main.cpp
 

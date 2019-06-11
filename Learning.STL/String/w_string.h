@@ -11,9 +11,12 @@
 #include <iterator>
 #include <iostream>
 
+namespace WingC {
+    template<typename Out>
+    void split(const std::string &s, char delim, Out result);
+    std::vector<std::string> s_split(const std::string &s, char delim);
+    std::vector<std::string> w_split(const std::string& s, char separator, bool ignore_empty = false);
+}
 
-template<typename Out>
-void split(const std::string &s, char delim, Out result);
-std::vector<std::string> s_split(const std::string &s, char delim);
 
 #endif //LEARNING_STL_W_STRING_H
