@@ -1,4 +1,8 @@
-﻿#include "algorithm.h"
+//
+// Created by wingc on 19-6-11.
+//
+
+#include "algorithm.h"
 
 using namespace std;
 
@@ -109,28 +113,3 @@ void Algorithm::test_addValue()
     for_each(a.begin(), a.end(), AddValue(*a.begin()));
     PRINT_ELEMENTS(a);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

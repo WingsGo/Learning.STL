@@ -1,5 +1,9 @@
-﻿#ifndef ALGORITHM_H
-#define ALGORITHM_H
+//
+// Created by wingc on 19-6-11.
+//
+
+#ifndef LEARNING_STL_ALGORITHM_H
+#define LEARNING_STL_ALGORITHM_H
 
 #include <iostream>
 #include <algorithm>
@@ -39,8 +43,8 @@ inline void PRINT_ELEMENTS(const T& container, const char* start="")
     std::cout << start;
 
     for (pos=container.begin(); pos!=container.end(); ++pos)
-        cout << *pos << " ";
-    cout << endl;
+        std::cout << *pos << " ";
+    std::cout << std::endl;
 }
 
 inline bool isPrime(int number)
@@ -70,7 +74,7 @@ private:
 class Person{
 public:
     explicit Person(const std::string &a, const std::string &b)
-        :first_name(a), second_name(b){}
+            :first_name(a), second_name(b){}
 
     std::string firstName() const {return std::string(first_name);}
     std::string secondName() const {return std::string(second_name);}
@@ -92,4 +96,4 @@ inline bool compareName(const Person& p1, const Person& p2)
     return (p1.secondName() < p2.secondName()) || (!(p1.secondName() < p2.secondName()) && p1.firstName() < p2.firstName());
 }
 
-#endif // ALGORITHM_H
+#endif //LEARNING_STL_ALGORITHM_H

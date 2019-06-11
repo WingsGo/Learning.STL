@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.cpp
+w_string.h
+/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.h
+
+/home/wingc/SourceCode/Learning.STL/Learning.STL/String/w_string.h
+string
+-
+sstream
+-
+vector
+-
+iterator
+-
+iostream
+-
+

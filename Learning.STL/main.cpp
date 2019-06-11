@@ -1,5 +1,5 @@
-﻿#include "algorithm.h"
-#include "functional.h"
+﻿#include "Algorithm/algorithm.h"
+#include "Algorithm/functional.h"
 
 using namespace std;
 
