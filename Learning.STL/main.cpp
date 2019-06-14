@@ -2,6 +2,7 @@
 #include "Algorithm/functional.h"
 
 #include "String/w_string.h"
+#include "Utils/utils.h"
 
 using namespace std;
 
@@ -9,6 +10,11 @@ class Persons{
 public:
     void call(){cout << "I am called" << endl;}
 };
+
+const char* cast() {
+    std::string result("test cast");
+    return result.c_str();
+}
 
 int main(int argc, char *argv[])
 {
@@ -33,6 +39,8 @@ int main(int argc, char *argv[])
     for (const auto& i : a) {
         std::cout << i << std::endl;
     }
+
+    WingC::foo();
 
     return 0;
 }

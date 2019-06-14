@@ -1,5 +1,6 @@
 # Custom ignore
 Learning.STL/.idea/
+Learning.STL/cmake-build-debug/
 
 # Prerequisites
 *.d

@@ -28,7 +28,7 @@ namespace WingC{
             std::string subString(s.substr(pre_pos, cur_pos - pre_pos));
             if (ignore_empty) {
                 if (!subString.empty())
-                result.emplace_back(subString);
+                    result.emplace_back(subString);
             }
             else
                 result.emplace_back(subString);
