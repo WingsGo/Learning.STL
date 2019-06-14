@@ -35,12 +35,15 @@ int main(int argc, char *argv[])
     PRINT_ELEMENTS(t);
 
     std::string test_string("this,,,is,a,test");
-    auto a = WingC::w_split(test_string, ',', false);
+    auto a = WingC::w_split(test_string, ',', true);
     for (const auto& i : a) {
         std::cout << i << std::endl;
     }
 
-    WingC::foo();
+    WingC::testPair();
+    WingC::testNumericalLimits();
+    WingC::testStdMaxMin();
+    WingC::testRelOps();
 
     return 0;
 }
